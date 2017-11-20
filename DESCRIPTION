@@ -1,9 +1,10 @@
 Package: canary
 Version: 0.0.0.9000
-Title: What the Package Does (one line, title case)
-Description: What the package does (one paragraph).
+Title: Check That Build Tools are Working
+Description: Checks that build tools such as Travis, Appveyor and R-hub are
+    working, before you look for bugs in your own package
 Authors@R: person("Duncan", "Garmonsway", email = "duncan.garmonsway@gmail.com", role = c("aut", "cre"))
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 ByteCompile: true
