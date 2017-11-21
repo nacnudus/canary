@@ -1,1 +1,10 @@
 ^LICENSE\.md$
+^README\.Rmd$
+^cran-comments\.md$
+^\.travis\.yml$
+^codecov\.yml$
+^appveyor\.yml$
+^_pkgdown\.yml$
+^doc$
+^data-raw$
+^CONDUCT\.md$

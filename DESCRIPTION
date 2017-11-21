@@ -1,10 +1,27 @@
 Package: canary
-Version: 0.0.0.9000
 Title: Check That Build Tools are Working
+Version: 0.0.0.9000
+Authors@R: person("Duncan", "Garmonsway", email = "duncan.garmonsway@gmail.com", role = c("aut", "cre"))
 Description: Checks that build tools such as Travis, Appveyor and R-hub are
     working, before you look for bugs in your own package
-Authors@R: person("Duncan", "Garmonsway", email = "duncan.garmonsway@gmail.com", role = c("aut", "cre"))
 License: MIT + file LICENSE
+Depends: 
+    R (>= 3.1)
+Imports: 
+    Rcpp,
+    rlang (>= 0.1.2)
+Suggests: 
+    covr,
+    knitr,
+    rmarkdown,
+    testthat (>= 1.0.2.9000)
+LinkingTo: 
+    Rcpp
+VignetteBuilder: knitr
+ByteCompile: true
 Encoding: UTF-8
 LazyData: true
-ByteCompile: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
+URL: https://github.com/nacnudus/canary
+BugReports: https://github.com/nacnudus/canary/issues

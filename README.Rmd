@@ -1,0 +1,44 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+[![Travis build status](https://travis-ci.org/nacnudus/canary.svg?branch=master)](https://travis-ci.org/nacnudus/canary)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/nacnudus/canary?branch=master&svg=true)](https://ci.appveyor.com/project/nacnudus/canary)
+[![Coverage status](https://codecov.io/gh/nacnudus/canary/branch/master/graph/badge.svg)](https://codecov.io/github/nacnudus/canary?branch=master)
+[![CRAN status](http://www.r-pkg.org/badges/version/canary)](https://cran.r-project.org/package=canary)
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# canary
+
+The goal of canary is to ...
+
+## Installation
+
+You can install canary from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("nacnudus/canary")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+## basic example code
+```
+
+## Code of conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md).
+  By participating in this project you agree to abide by its terms.
