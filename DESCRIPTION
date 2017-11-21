@@ -5,17 +5,17 @@ Authors@R: person("Duncan", "Garmonsway", email = "duncan.garmonsway@gmail.com",
 Description: Checks that build tools such as Travis, Appveyor and R-hub are
     working, before you look for bugs in your own package
 License: MIT + file LICENSE
-Depends: 
+Depends:
     R (>= 3.1)
-Imports: 
+Imports:
     Rcpp,
-    rlang (>= 0.1.2)
-Suggests: 
+    rlang
+Suggests:
     covr,
     knitr,
     rmarkdown,
-    testthat (>= 1.0.2.9000)
-LinkingTo: 
+    testthat
+LinkingTo:
     Rcpp
 VignetteBuilder: knitr
 ByteCompile: true
