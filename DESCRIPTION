@@ -9,10 +9,10 @@ Depends:
     R (>= 3.1)
 Imports:
     Rcpp,
-    rlang
+    rlang,
+    knitr
 Suggests:
     covr,
-    knitr,
     rmarkdown,
     testthat
 LinkingTo:
